@@ -1,0 +1,22 @@
+{
+  "name": "api_rest_v001",
+  "version": "1.0.0",
+  "description": "Esta actividad se centra en el estudio de los conceptos relacionados a la configuración del entorno de\r desarrollo como espacio de trabajo para el desarrollo de la API Rest, la cual será construida a partir de las\r nuevas tecnologías Web como NodeJs, Express, y MongoDb y por último se aborda el testing de la API\r desarrollada a través de la herramienta Postman.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "Jhonatan Alberto Padilla Rovira",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}

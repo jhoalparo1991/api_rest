@@ -21,7 +21,8 @@ const userSchema = new Schema({
     rol:{
         type:String,
         enum:['user','admin'],
-        message:'{VALUE} is not allowed'
+        message:'{VALUE} is not allowed',
+        default:'user'
     },
 
 

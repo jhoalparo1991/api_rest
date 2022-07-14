@@ -4,6 +4,7 @@ require('dotenv').config({
 })
 const express = require('express');
 const morgan = require('morgan');
+const { urlencoded } = require('express');
 
 //Initialization
 const app = express();
@@ -16,7 +17,8 @@ require('./database')
 
 //Middleware
 app.use(morgan('dev'))
-
+app.use(express.urlencoded({extended:true}))
+app.use(express.json())
 
 //Routes
 app.use('/api/v1/user/',require('./routes/users'));

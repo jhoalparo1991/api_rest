@@ -2,7 +2,7 @@
 
 Esta actividad se centra en el estudio de los conceptos relacionados a la configuración del entorno de
 desarrollo como espacio de trabajo para el desarrollo de la API Rest, la cual será construida a partir de las
-nuevas tecnologías Web como NodeJs, Express, y MongoDb y por último se aborda el testing de la API
+nuevas tecnologías Web como NodeJs rest, y MongoDb y por último se aborda el testing de la API
 desarrollada a través de la herramienta Postman.
 
 ## Tecnologias
@@ -11,6 +11,7 @@ desarrollada a través de la herramienta Postman.
     * Express
     * Nodemon
     * Mongoose - MongoDB - MongoAtlas
+    * Bcrypt
 
 ## Testing
 
